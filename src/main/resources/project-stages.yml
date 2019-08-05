@@ -1,0 +1,16 @@
+swarm:
+  datasources:
+    data-sources:
+      myDS:
+        driver-name: myh2
+        connection-url: jdbc:postgresql://localhost:5432/softplan
+        user-name: postgres
+        password: 861009
+    jdbc-drivers:
+      myh2:
+        driver-class-name: org.postgresql.Driver
+        xa-datasource-name: org.postgresql.xa.PGXADataSource
+        driver-module-name: org.postgresql
+  ee:
+    default-bindings-service:
+      datasource: java:jboss/datasources/myDS
