@@ -11,7 +11,7 @@ Caso queria trocar o nome do BD, favor alterar em "projects-stages.yml"
 ``` sh
 
 $ ./mvnw clean package \
-  && java -jar target/swarm-micro-service-thorntail
+  && java -jar target/swarm-micro-service-thorntail.jar
 
 ```
 
@@ -30,7 +30,7 @@ Exemplo lista de usuários
 
 ``` sh
 
-curl -H "Content-Type: application/json" -H "Authorization: Bearer <TOKEN GERADO SERVICO AUTENTICAR>" localhost:8080/api/v1/usuarios/
+curl -v -H "Content-Type: application/json" -H "Authorization: Bearer <TOKEN GERADO SERVICO AUTENTICAR>" localhost:8080/api/v1/usuarios/
 
 ```
 
