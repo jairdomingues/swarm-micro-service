@@ -21,7 +21,7 @@ public class SchedulerMain {
 	        .dataSource("myDS", (ds) -> {
 	           
 	          ds.driverName("PostgreSQL");	
-	          ds.connectionUrl("jdbc:postgresql://localhost:5432/softplan");
+	          ds.connectionUrl("jdbc:postgresql://localhost:5432/swarm");
 	          ds.userName("postgres");
 	          ds.password("861009");
 	          ds.minPoolSize(5);

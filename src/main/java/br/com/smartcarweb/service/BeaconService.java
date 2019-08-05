@@ -19,6 +19,10 @@ import br.com.smartcarweb.dao.BeaconDAO;
 import br.com.smartcarweb.dao.UsuarioDAO;
 import br.com.smartcarweb.model.Beacon;
 import br.com.smartcarweb.model.Usuario;
+import br.com.smartcarweb.service.dto.BeaconDTO;
+import br.com.smartcarweb.service.dto.BeaconListDTO;
+import br.com.smartcarweb.service.dto.FCMRequestDTO;
+import br.com.smartcarweb.service.dto.NotificationDTO;
 
 @Stateless
 public class BeaconService {

@@ -9,6 +9,7 @@ import br.com.smartcarweb.api.util.Util;
 import br.com.smartcarweb.dao.ResponsavelDAO;
 import br.com.smartcarweb.model.Responsavel;
 import br.com.smartcarweb.model.Usuario;
+import br.com.smartcarweb.service.dto.ResponsavelCreateDTO;
 
 @Stateless
 public class ProcessoService {

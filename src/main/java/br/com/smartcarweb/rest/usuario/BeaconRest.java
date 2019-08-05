@@ -10,7 +10,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import br.com.smartcarweb.api.jwt.filter.JWTToken;
-import br.com.smartcarweb.service.BeaconListDTO;
+import br.com.smartcarweb.service.dto.BeaconListDTO;
 
 @Path(BeaconRest.PATH)
 @Produces(MediaType.APPLICATION_JSON)

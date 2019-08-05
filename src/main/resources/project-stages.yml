@@ -3,7 +3,7 @@ swarm:
     data-sources:
       myDS:
         driver-name: myh2
-        connection-url: jdbc:postgresql://localhost:5432/softplan
+        connection-url: jdbc:postgresql://localhost:5432/swarm
         user-name: postgres
         password: 861009
     jdbc-drivers:

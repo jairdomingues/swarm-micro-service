@@ -6,7 +6,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import br.com.smartcarweb.service.ResponsavelCreateDTO;
+import br.com.smartcarweb.service.dto.ResponsavelCreateDTO;
 
 @Path(ResponsavelRest.PATH)
 @Produces(MediaType.APPLICATION_JSON)

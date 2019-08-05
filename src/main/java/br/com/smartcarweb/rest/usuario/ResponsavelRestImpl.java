@@ -12,7 +12,7 @@ import com.google.gson.Gson;
 import br.com.smartcarweb.api.excecoes.ErroAcc;
 import br.com.smartcarweb.api.excecoes.ErroBase;
 import br.com.smartcarweb.service.ProcessoService;
-import br.com.smartcarweb.service.ResponsavelCreateDTO;
+import br.com.smartcarweb.service.dto.ResponsavelCreateDTO;
 
 public class ResponsavelRestImpl implements ResponsavelRest {
 
